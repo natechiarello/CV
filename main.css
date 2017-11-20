@@ -1,0 +1,228 @@
+/* ---------------------- */
+/* -- General settings -- */
+/* ---------------------- */
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.cv-wrapper {
+	background-color: #FFF;
+	color: #666;
+	margin: 50px auto 0;
+}
+.cv-container {
+	position: relative;
+}
+.center {
+	text-align: center;
+}
+.strong {
+	font-weight: bold;
+}
+
+/* ---------------------- */
+/* --- Header settings -- */
+/* ---------------------- */
+.cv-header {
+	background-color: hsl(0, 0%, 97%);
+	padding: 56px 0;
+	border-radius: 5px;
+	width: 100%;
+}
+.cv-inner-header {
+	margin: 0 auto;
+	width: 70%;
+}
+.cv-header-figure {
+	display: inline-block;
+	background-color: #FFF;
+	padding: 10px;
+	border: 0.5px solid #b3b3b3;
+	box-shadow: 0 0 7px #999;
+}
+.cv-header img {
+	width: 200px;
+	height: 200px;
+}
+.cv-contacts {
+	display: inline-block;
+}
+.name-header {
+	font-size: 36px;
+	margin: 0;
+}
+.title-header {
+	font-size: 22px;
+	margin: 0;
+	text-transform: uppercase;
+}
+.city-header {
+	font-size: 16px;
+	margin: 0;
+	color: #595959;
+}		
+.term, .def {
+	line-height: 30px;
+	padding-left: 10px;
+}
+.term {	
+	border: 1px solid #e6e6e6;
+	background-color: #FFF;
+	display: inline-block;
+	width: 88px;
+	border-radius: 5px;
+}
+.def a {
+	text-decoration: none;
+	color: #404040;
+}
+.def a:hover {
+	color: #000;
+}
+/*
+#print-icon {
+	position: absolute;
+	top: 20px;
+	right: 25px;
+	color: #333;
+	text-decoration: none;
+	font-size: 30px;			
+}*/
+
+/* ---------------------- */
+/* ---- Main settings --- */
+/* ---------------------- */
+.cv-main {
+	margin: 50px auto 0;
+	width: 75%;
+}
+
+/* ----------------------------- */
+/* ---- Main settings header --- */
+/* ----------------------------- */
+.cv-about-me-header {
+	margin-top: 30px;
+	-webkit-margin-after: 10px !important;
+}
+.cv-description {
+	margin: 20px auto;
+	padding: 20px;
+	text-align: justify;
+	border-bottom: 1px solid #e6eeff;
+	line-height: 25px;
+}
+.cv-about-me-image {
+	float: left;
+	margin-right: 60px;
+	margin-top: 50px;
+}
+.cv-about-me-image img {
+	border-radius: 50%;
+}
+
+/* ----------------------------- */
+/* ---- Main settings skills --- */
+/* ----------------------------- */
+.cv-skills {
+	border-bottom: 1px solid #e6eeff;
+}
+.cv-skills-list {
+	list-style: none;
+}
+.cv-skills-list li {
+	display: inline-block;
+	line-height: 20px;
+	background-color: hsl(0, 0%, 97%);
+	border-radius: 5px;
+	padding: 5px 15px;
+	margin: 10px 5px;
+	font-size: 14px;
+	box-shadow: 0 0 8px #d9d9d9;
+}
+
+/* --------------------------------- */
+/* ---- Main settings experience --- */
+/* --------------------------------- */
+.cv-experience {
+	padding: 40px 0;
+	border-bottom: 1px solid #e6eeff;
+}
+.cv-experience-header {
+	margin-top: 30px;
+}
+.cv-experience article:nth-child(even) {
+	background-color: #f2f2f2;
+}
+.cv-experience article:nth-child(even) span {
+	background-color: #FFF;
+}
+.cv-single-experience {
+	margin-top: 40px;
+	text-align: justify;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.cv-single-experience h4 {
+	position: relative;
+}
+.dates {
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	margin-top: -3px;
+	background-color: hsl(0, 0%, 97%);
+	border-radius: 5px;
+	padding: 0 15px;
+	font-size: 14px;
+	box-shadow: 0 0 8px #d9d9d9;
+	line-height: 1.5;
+}
+.cv-tower-london-links {
+	list-style: none;
+	padding: 0;
+}
+.cv-tower-london-links li {
+	display: inline-block;
+	margin-right: 50px;
+}
+.cv-tower-london-links li a {
+	text-decoration: none;
+	color: #666;
+}
+.cv-tower-london-links li a:hover {
+	color: #000;
+}
+
+/* ------------------------------- */
+/* --- Accomplishments settings -- */
+/* ------------------------------- */
+.cv-accomplishments {
+	padding: 40px 50px 0;
+	margin-bottom: 50px;
+}
+.cv-accomplishments article:first-of-type {
+	display: inline-block;
+}
+.cv-accomplishments article:last-of-type {
+	float: right;
+}
+.cv-courses-list, .cv-spoken-languages-list {
+	list-style: none;
+}
+.cv-courses-list li, .cv-spoken-languages-list li {
+	line-height: 36px;
+}
+
+/* ---------------------- */
+/* --- Footer settings -- */
+/* ---------------------- */
+.cv-footer {
+	background-color: hsl(0, 0%, 97%);
+	padding: 20px 0;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
