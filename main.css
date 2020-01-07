@@ -129,6 +129,7 @@ body {
 }
 .cv-skills-list {
 	list-style: none;
+	padding: 0;
 }
 .cv-skills-list li {
 	display: inline-block;
